@@ -1,0 +1,57 @@
+# ---------------------------------------------------------------------------
+# Secrets and per-machine config (never commit)
+# ---------------------------------------------------------------------------
+# Firebase client config. Copy lib/firebase_options.example.dart to
+# lib/firebase_options.dart and download your own google-services.json.
+android/app/google-services.json
+lib/firebase_options.dart
+android/key.properties
+**/*.keystore
+**/*.jks
+
+# ---------------------------------------------------------------------------
+# Build output
+# ---------------------------------------------------------------------------
+/build/
+**/build/
+/release/
+/coverage/
+app.*.symbols
+app.*.map.json
+
+# ---------------------------------------------------------------------------
+# Flutter / Dart / Pub
+# ---------------------------------------------------------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+migrate_working_dir/
+
+# ---------------------------------------------------------------------------
+# IDEs and editors
+# ---------------------------------------------------------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.history
+.atom/
+.buildlog/
+.svn/
+.swiftpm/
+
+# ---------------------------------------------------------------------------
+# OS and misc
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.log
+*.pyc
+*.swp
+*.class
