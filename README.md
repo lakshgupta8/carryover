@@ -1,7 +1,3 @@
-<!--
-  Replace OWNER/REPO below with your GitHub path (one find-and-replace) so the
-  dynamic badges and release links resolve.
--->
 <div align="center">
 
 <img src="assets/icon/icon.png" alt="Habitual Offender icon" width="112" />
@@ -10,9 +6,9 @@
 
 **A gold‑and‑white habit tracker for Android with two kinds of tokens, guilt‑free streak repairs and reminders that actually get things done.**
 
-[![CI](https://img.shields.io/github/actions/workflow/status/OWNER/REPO/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/OWNER/REPO?include_prereleases&label=release&color=D4AF37)](https://github.com/OWNER/REPO/releases/latest)
-[![Last commit](https://img.shields.io/github/last-commit/OWNER/REPO?color=B8902A)](https://github.com/OWNER/REPO/commits/main)
+[![CI](https://img.shields.io/github/actions/workflow/status/lakshgupta8/habit-tracker/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white)](https://github.com/lakshgupta8/habit-tracker/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/lakshgupta8/habit-tracker?include_prereleases&label=release&color=D4AF37)](https://github.com/lakshgupta8/habit-tracker/releases/latest)
+[![Last commit](https://img.shields.io/github/last-commit/lakshgupta8/habit-tracker?color=B8902A)](https://github.com/lakshgupta8/habit-tracker/commits/main)
 [![License: MIT](https://img.shields.io/badge/license-MIT-8A6A14.svg)](LICENSE)
 <br/>
 [![Flutter](https://img.shields.io/badge/Flutter-3.41-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
@@ -20,7 +16,7 @@
 [![Firebase](https://img.shields.io/badge/Firebase-Auth%20%2B%20Firestore-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Platform](https://img.shields.io/badge/platform-Android%207%2B-3DDC84?logo=android&logoColor=white)](#install)
 
-[**Download APK**](https://github.com/OWNER/REPO/releases/latest) · [Features](#features) · [How the rewards work](#how-the-rewards-work) · [Setup](#setup) · [Architecture](#architecture)
+[**Download APK**](https://github.com/lakshgupta8/habit-tracker/releases/latest) · [Features](#features) · [How the rewards work](#how-the-rewards-work) · [Setup](#setup) · [Architecture](#architecture)
 
 </div>
 
