@@ -154,11 +154,11 @@ class _SettingsScreenState extends State<SettingsScreen>
       final json = await c.exportJson();
       final dir = await getTemporaryDirectory();
       final stamp = dateKey(DateTime.now());
-      final file = File('${dir.path}/habitual-offender-$stamp.json');
+      final file = File('${dir.path}/carryover-$stamp.json');
       await file.writeAsString(json);
       await SharePlus.instance.share(ShareParams(
         files: [XFile(file.path, mimeType: 'application/json')],
-        subject: 'Habitual Offender export $stamp',
+        subject: 'Carryover export $stamp',
       ));
     } catch (e) {
       if (mounted) showSnack(context, 'Export failed: $e');

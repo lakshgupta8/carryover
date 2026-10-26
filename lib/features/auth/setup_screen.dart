@@ -12,7 +12,7 @@ class SetupScreen extends StatelessWidget {
 
   static const _steps = [
     'Create a free Firebase project at console.firebase.google.com (Spark plan).',
-    'Add an Android app with package name com.lakshya.habitual_offender and your debug SHA-1 (run: cd android && ./gradlew signingReport).',
+    'Add an Android app with package name com.lakshya.carryover and your debug SHA-1 (run: cd android && ./gradlew signingReport).',
     'Authentication → Sign-in method: enable Email/Password and Google.',
     'Firestore Database → Create database, then publish the rules from firestore.rules.',
     'Copy the Android app values into lib/firebase_options.dart (or run: flutterfire configure).',
@@ -28,7 +28,7 @@ class SetupScreen extends StatelessWidget {
         child: ListView(
           padding: const EdgeInsets.fromLTRB(24, 32, 24, 32),
           children: [
-            const Center(child: AurumMark()),
+            const Center(child: CarryoverMark()),
             const SizedBox(height: 20),
             Text(
               error == null ? 'One-time setup' : 'Firebase failed to start',
@@ -38,7 +38,7 @@ class SetupScreen extends StatelessWidget {
             const SizedBox(height: 8),
             Text(
               error == null
-                  ? 'Habitual Offender keeps your data in your own free Firebase project. '
+                  ? 'Carryover keeps your data in your own free Firebase project. '
                       'Connect it once and you are set.'
                   : '$error',
               style: t.bodyMedium?.copyWith(color: AppColors.inkMuted),
@@ -81,7 +81,7 @@ class SetupScreen extends StatelessWidget {
             OutlinedButton.icon(
               onPressed: () {
                 Clipboard.setData(
-                  const ClipboardData(text: 'com.lakshya.habitual_offender'),
+                  const ClipboardData(text: 'com.lakshya.carryover'),
                 );
                 showSnack(context, 'Package name copied.');
               },

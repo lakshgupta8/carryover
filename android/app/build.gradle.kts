@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "com.lakshya.habitual_offender"
+    namespace = "com.lakshya.carryover"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -24,7 +24,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.lakshya.habitual_offender"
+        applicationId = "com.lakshya.carryover"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode

@@ -4,7 +4,7 @@ import 'firebase_options.dart';
 class AppConfig {
   AppConfig._();
 
-  static const String appName = 'Habitual Offender';
+  static const String appName = 'Carryover';
 
   /// Optional. The *Web* OAuth client ID from Firebase → Authentication →
   /// Sign-in method → Google ("Web SDK configuration").

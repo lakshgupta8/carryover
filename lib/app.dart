@@ -11,8 +11,8 @@ import 'features/habits/widgets/gold_widgets.dart';
 import 'features/notifications/notification_service.dart';
 
 /// Root widget. Owns the MaterialApp and the auth gate.
-class AurumApp extends StatelessWidget {
-  const AurumApp({
+class CarryoverApp extends StatelessWidget {
+  const CarryoverApp({
     super.key,
     required this.notifications,
     required this.firebaseReady,
@@ -76,7 +76,7 @@ class _Splash extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(child: AurumMark(size: 84)),
+      body: Center(child: CarryoverMark(size: 84)),
     );
   }
 }

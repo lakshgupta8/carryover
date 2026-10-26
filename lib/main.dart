@@ -39,7 +39,7 @@ Future<void> main() async {
     debugPrint('Notifications unavailable: $e');
   }
 
-  runApp(AurumApp(
+  runApp(CarryoverApp(
     notifications: notifications,
     firebaseReady: firebaseReady,
     firebaseError: firebaseError,

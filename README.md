@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="assets/icon/icon.png" alt="Habitual Offender icon" width="112" />
+<img src="assets/icon/icon.png" alt="Carryover icon" width="112" />
 
-# Habitual Offender
+# Carryover
 
 **A gold‑and‑white habit tracker for Android with two kinds of tokens, guilt‑free streak repairs and reminders that actually get things done.**
 
-[![CI](https://img.shields.io/github/actions/workflow/status/lakshgupta8/habit-tracker/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white)](https://github.com/lakshgupta8/habit-tracker/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/lakshgupta8/habit-tracker?include_prereleases&label=release&color=D4AF37)](https://github.com/lakshgupta8/habit-tracker/releases/latest)
-[![Last commit](https://img.shields.io/github/last-commit/lakshgupta8/habit-tracker?color=B8902A)](https://github.com/lakshgupta8/habit-tracker/commits/main)
+[![CI](https://img.shields.io/github/actions/workflow/status/lakshgupta8/carryover/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white)](https://github.com/lakshgupta8/carryover/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/lakshgupta8/carryover?include_prereleases&label=release&color=D4AF37)](https://github.com/lakshgupta8/carryover/releases/latest)
+[![Last commit](https://img.shields.io/github/last-commit/lakshgupta8/carryover?color=B8902A)](https://github.com/lakshgupta8/carryover/commits/main)
 [![License: MIT](https://img.shields.io/badge/license-MIT-8A6A14.svg)](LICENSE)
 <br/>
 [![Flutter](https://img.shields.io/badge/Flutter-3.41-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
@@ -16,7 +16,7 @@
 [![Firebase](https://img.shields.io/badge/Firebase-Auth%20%2B%20Firestore-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Platform](https://img.shields.io/badge/platform-Android%207%2B-3DDC84?logo=android&logoColor=white)](#install)
 
-[**Download APK**](https://github.com/lakshgupta8/habit-tracker/releases/latest) · [Features](#features) · [How the rewards work](#how-the-rewards-work) · [Setup](#setup) · [Architecture](#architecture)
+[**Download APK**](https://github.com/lakshgupta8/carryover/releases/latest) · [Features](#features) · [How the rewards work](#how-the-rewards-work) · [Setup](#setup) · [Architecture](#architecture)
 
 </div>
 
@@ -37,7 +37,7 @@
 
 ## Why
 
-Most habit apps punish a single missed day by zeroing a streak you spent months building. Habitual Offender assumes you will slip, and makes recovery part of the game: every check‑in earns tokens, and tokens buy back missed days. Runs entirely on free tiers, keeps your data in **your own** Firebase project, and never talks to a server for reminders.
+Most habit apps punish a single missed day by zeroing a streak you spent months building. Carryover assumes you will slip, and makes recovery part of the game: every check‑in earns tokens, and tokens buy back missed days. Runs entirely on free tiers, keeps your data in **your own** Firebase project, and never talks to a server for reminders.
 
 ## Features
 
@@ -99,7 +99,7 @@ All numbers live in [`lib/core/rewards.dart`](lib/core/rewards.dart).
 
 ## Install
 
-Grab the latest `*-arm64.apk` from [**Releases**](https://github.com/lakshgupta8/habit-tracker/releases/latest) and open it on your phone (allow installs from that source once). Prebuilt APKs point at the author's Firebase project; to run against your own, build from source.
+Grab the latest `*-arm64.apk` from [**Releases**](https://github.com/lakshgupta8/carryover/releases/latest) and open it on your phone (allow installs from that source once). Prebuilt APKs point at the author's Firebase project; to run against your own, build from source.
 
 ## Setup
 
@@ -109,7 +109,7 @@ Building from source needs a free Firebase project. About ten minutes.
 <summary><b>1 · Firebase project</b></summary>
 
 1. [console.firebase.google.com](https://console.firebase.google.com) → **Add project** (Spark plan, no billing).
-2. **Add app → Android**, package name `com.lakshya.habitual_offender` (or change it in `android/app/build.gradle.kts`). Add your debug SHA‑1:
+2. **Add app → Android**, package name `com.lakshya.carryover` (or change it in `android/app/build.gradle.kts`). Add your debug SHA‑1:
    ```bash
    cd android && ./gradlew signingReport      # Windows: .\gradlew.bat signingReport
    ```

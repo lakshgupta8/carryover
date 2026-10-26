@@ -1,5 +1,5 @@
-name: habit_tracker
-description: "Aurum: a gold-and-white habit tracker with streaks, tokens and streak shields."
+name: carryover
+description: "Carryover: a habit tracker that assumes you will slip — check-ins earn tokens, and tokens buy back missed days."
 publish_to: 'none'
 version: 1.0.0+1
 

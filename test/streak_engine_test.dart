@@ -1,10 +1,10 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:habit_tracker/core/dates.dart';
-import 'package:habit_tracker/core/rewards.dart';
-import 'package:habit_tracker/features/habits/engine/streak_engine.dart';
-import 'package:habit_tracker/features/habits/models/day_record.dart';
-import 'package:habit_tracker/features/habits/models/habit.dart';
-import 'package:habit_tracker/features/habits/models/user_profile.dart';
+import 'package:carryover/core/dates.dart';
+import 'package:carryover/core/rewards.dart';
+import 'package:carryover/features/habits/engine/streak_engine.dart';
+import 'package:carryover/features/habits/models/day_record.dart';
+import 'package:carryover/features/habits/models/habit.dart';
+import 'package:carryover/features/habits/models/user_profile.dart';
 
 Habit habit(
   String id, {

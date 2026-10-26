@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:habit_tracker/core/theme/app_theme.dart';
-import 'package:habit_tracker/features/habits/engine/streak_engine.dart';
-import 'package:habit_tracker/features/habits/models/day_record.dart';
-import 'package:habit_tracker/features/habits/models/habit.dart';
-import 'package:habit_tracker/features/habits/widgets/habit_tile.dart';
-import 'package:habit_tracker/features/habits/widgets/repair_card.dart';
+import 'package:carryover/core/theme/app_theme.dart';
+import 'package:carryover/features/habits/engine/streak_engine.dart';
+import 'package:carryover/features/habits/models/day_record.dart';
+import 'package:carryover/features/habits/models/habit.dart';
+import 'package:carryover/features/habits/widgets/habit_tile.dart';
+import 'package:carryover/features/habits/widgets/repair_card.dart';
 
 /// Renders [child] the way the app does, on a narrow phone, so that any
 /// RenderFlex overflow surfaces as a test failure.

@@ -373,8 +373,8 @@ class EmptyState extends StatelessWidget {
 }
 
 /// The app mark: a gold disc with a check.
-class AurumMark extends StatelessWidget {
-  const AurumMark({super.key, this.size = 72});
+class CarryoverMark extends StatelessWidget {
+  const CarryoverMark({super.key, this.size = 72});
 
   final double size;
 

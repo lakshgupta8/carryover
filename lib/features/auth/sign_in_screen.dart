@@ -109,7 +109,7 @@ class _SignInScreenState extends State<SignInScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  const Center(child: AurumMark(size: 76)),
+                  const Center(child: CarryoverMark(size: 76)),
                   const SizedBox(height: 20),
                   Text(
                     AppConfig.appName,
